@@ -7,11 +7,12 @@ let clickCount = 0;  // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-    "对不起，我知道错了", 
+    "熊家心疼你的", 
     "零花钱都给你", 
     "欲擒故纵，我懂！", 
-    "能不能给个台阶嘛", 
-    "原谅我嘛，对不起"
+    "给熊家一个机会嘛", 
+    "熊家真的喜欢你",
+    "会爱你永远永远"
 ];
 
 // No 按钮点击事件
@@ -49,7 +50,7 @@ noButton.addEventListener("click", function() {
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">!!!喜欢你!! ( >᎑<)♡︎ᐝ</h1>
+            <h1 class="yes-text">!!!爱你！!! ( >᎑<)♡︎ᐝ</h1>
             <img src="images/hug.png" alt="拥抱" class="yes-image">
         </div>
     `;
